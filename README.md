@@ -2,7 +2,7 @@
 sign  verify Basic components helper
 
 ## composer require xieshunv/support
-<?php
+    <?php
         use xieshunv\support\Sign;
         class test
         {
@@ -21,7 +21,7 @@ sign  verify Basic components helper
                 $objSign = Sign::getInstance($key);
                 //参与签名的参数
                 $param = [
-                    'id'=>'123',
+                    "id"=>"123",
                     'city'=>'beiJing',
                     'name'=>'xieshunv',
                     'amount'=>110.3
