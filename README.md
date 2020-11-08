@@ -11,7 +11,8 @@ sign  verify Basic components helper
             }
             
             /**
-             * @param $ip
+             * 参与签名的参数
+             * @param 
              */
             public function setSign($param = [])
             {
